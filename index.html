@@ -1,1 +1,107 @@
-hello world
+<!-- this is a comment! -->
+<!-- comments are for humans, so the browser ignores these lines. -->
+<!-- there are comments above different lines to explain the HTML code below -->
+
+<!-- for example... -->
+
+<!-- this is the "DOCYTPE" a declaration that tells ur browser that the code -->
+<!-- that follows conforms to the standards of a particular version of HTML, -->
+<!-- these used to be long && complicated but with the latest version of -->
+<!-- HTML (HTML5) its now short && sweet. -->
+<!DOCTYPE html>
+<!-- after that we've got our first official element, <html> the opening tag  -->
+<!-- indicates that everything in between it && the closing </html> is going to  -->
+<!-- be HTML code. the lang="en" attribute let's the browser know that the -->
+<!-- page's contents is going to be in "english". -->
+
+<!-- inside of the HTML element there are two major elements,  -->
+<!-- the <head> ... </head> which contains information about the page,  -->
+<!-- && the <body> ... </body> which contains everything that  -->
+<!-- will show up inside the browser window. -->
+<html lang="en">
+  <head>
+    <!-- the only thing we absolutely need inside of our head element is  -->
+    <!-- a <title> Page Title </title>. u won't see this inside ur browser window  -->
+    <!-- (b/c its not in the body) but will show up in lots of other places  -->
+    <!-- for example on ur browser tab, && also in google search results. -->
+    <title>Introduction to Internet Art: University of Chicago</title>
+
+    <!-- this meta tag is a description of ur page -->
+    <!-- it shows up in search results or when shared on social media -->
+    <meta name="description" content="a class website for Introduction to Internet Art (MAAD 23631) at the University of Chicago">
+    <!-- this one is for the author of the page -->
+    <meta name="author" content="Nick Briz">
+
+    <!-- this meta tag tells the browser to use the unicode character set -->
+    <!-- so u can use characters beyond the ones found in ur keyboard,  -->
+    <!-- for ex: ñ, 悆 or ☺ -->
+    <meta charset="utf-8">
+
+    <!-- this is so ur page looks good on mobile -->
+    <!-- more details can be found in the CSS Layout notes -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- this is for the little icon that shows up in the browser tab -->
+    <!-- this assumes u have a file called "favicon.png" in an images folder -->
+    <link rel="icon" type="image/png"  href="images/favicon.png">
+  </head>
+  <body>
+    <!-- inside the body u include all of the elements that will create  -->
+    <!-- the structure of ur content, for example u can create headers  -->
+    <!-- with <h1> ... </h1> && smaller headers with <h2> ... </h2>  -->
+    <!-- && u can create paragraph containers w/ <p> ... </p>. -->
+
+    <!-- the <center> tag is now considered "obsolete" or "depreciated" -->
+    <!-- these kind of "layout" details are now defined in CSS, so it's best to -->
+    <!-- avoid using the <center> tag, that said, it still works as u can see -->
+    <!-- (assuming things look centered in ur browser), so u could still use it to -->
+    <!-- experiment or make a point (as i'm doing here ^__^)   -->
+    <center>
+      <h1>Introduction to Internet Art</h1>
+      <h3>MAAD 23631 1 (Winter 2020)</h3>
+      <br>
+
+      <p>
+        <b>where</b>: JCL 134;
+        <br>
+        <b>when</b>: Mon 4:30 - 7:20;
+        <br>
+        <b>professor</b>: Nick Briz;
+        <br>
+        <b>email</b>: nb<i></i>riz@uchi<i></i>cago.edu;
+      </p>
+
+      <br>
+      <img src="images/mtaa.jpg" alt="mtaa - simple net art diagram">
+      <br>
+
+      <p>
+        <a href="rules.html">rules 4 teachers + students</a>
+        <br>
+        <br>
+        <a href="syllabus.html">syllabus</a>
+        <br>
+        <br>
+        <a href="https://github.com/nbriz/intro2netart/blob/master/notes/the-internet/README.md">wtf is the Internet ???</a>
+        <br>
+        <br>
+        <a href="https://github.com/nbriz/intro2netart/blob/master/notes/markup/README.md">markup languages</a>
+        <br>
+        <br>
+        <a href="https://github.com/nbriz/intro2netart/blob/master/notes/html/README.md">HTML (hypertext markup language)</a>
+        <br>
+      </p>
+
+      <br>
+
+      <p>
+        <a href="homework.html">homework page</a>
+      </p>
+    </center>
+
+
+    <br>
+    <br>
+    <br>
+  </body>
+</html>
