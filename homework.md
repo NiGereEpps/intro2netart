@@ -10,4 +10,4 @@ watch the videos on my [How to / Why Make Internet Art" playlist](https://www.yo
 
 watch [Hyperland](https://archive.org/details/DouglasAdams-Hyperland), this BBC doc form 1990 is written by && stars Douglas Adams (author of A Hitchhikers Guide to the Galaxy), it's a history of "hypermedia" released just before the World Wide Web took off, ie. just before anyone had any real experience w/hypermedia (that serendipitous timing makes this a unique historical artifact). The the film itself is a single-channel linear video, it tries to present the viewer w/what a hypermedia experience is like through the film's aesthetic (which is also a very tasty 90's aesthetic). quite the gem. (the link above is to the doc hosted on the [Internet Archive](https://vimeo.com/59207751) but if u have trouble viewing it there u can also find it on YouTube)
 
-*HTML tutorials + experiment TBD*
+Watch the [Form Art Video](https://youtu.be/N0KpmV9CDfg) && complete the form art experiment.
