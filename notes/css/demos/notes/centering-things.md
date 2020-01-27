@@ -2,7 +2,7 @@
 
 one of the first questions which often comes up when learning CSS is "how do I center my content?". like anything u might want to do in CSS there are lots of different ways. the old-school way to do this was to use the `<center>` element, but this is **NOT RECOMMENDED** b/c this is an old HTML element which has since been depreciated (so it migth not work in certain browsers, especially as time goes on && browsers update + new browsers come out). instead u should use CSS to center stuff.
 
-### [CSS Centering Example](https://nbriz.github.io/intro2netart/notes/css/demos/centering-things.html)
+### [CSS Centering Example](https://nbriz.github.io/intro2netart/notes/css/demos/demoscentering-things.html)
 
 if u want to center text inside of an element, for example if u want ur headers like `<h1>` to always center their texts, u could us the `text-align: center;` property, like this:
 ```CSS

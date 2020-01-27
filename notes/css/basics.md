@@ -13,7 +13,7 @@ here we change the `<div>`'s `font-size` to `24px` && it's `color` to `white`. n
 here's a list of some of the most commonly used properties:
 
 | CSS property | description |
-|:---:|:---:|:---|
+|:---:|:---:|
 | [background-color](https://developer.mozilla.org/en-US/docs/Web/CSS/background-color) |The background-color CSS property sets the background color of an element, either through a color value or the keyword transparent.|
 | [background-image](https://developer.mozilla.org/en-US/docs/Web/CSS/background-image) |The CSS background-image property sets one or several background images for an element. The images are drawn on stacking context layers on top of each other. The first layer specified is drawn as if it is closest to the user.|
 | [border](https://developer.mozilla.org/en-US/docs/Web/CSS/border) |The border CSS property is a shorthand property for setting the individual border property values in a single place in the style sheet. border can be used to set the values for one or more of: border-width, border-style, border-color.|

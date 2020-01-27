@@ -26,7 +26,7 @@ or, like transitions, they can be defined in a single line using the "animation"
 before we can set an element to animate, we need to make an CSS animation rule w/the `@keyframes name { }`, w/in that rule we create keyframe sub-rules which contain where the CSS properties should be at a given point in the animation cycle. below is an example of what that looks like:
 
 
-### [ex 1: bounce animation](https://nbriz.github.io/intro2netart/notes/css/demos/animation-ex1.html)
+### [ex 1: bounce animation](https://nbriz.github.io/intro2netart/notes/css/demos/demosanimation-ex1.html)
 
 ```css
 .ball {
@@ -98,7 +98,7 @@ below is a slightly more complicated animation called "bounce" (w/more keyframes
 }
 ```
 
-### [ex 2: blinking CSS emoji](https://nbriz.github.io/intro2netart/notes/css/demos/animation-ex2.html)
+### [ex 2: blinking CSS emoji](https://nbriz.github.io/intro2netart/notes/css/demos/demosanimation-ex2.html)
 
 In the beginning HTML had elements && attributes like `<font>` && `<center>` which effected the style + layout of a page. When CSS was first introduced the idea was to "separate concerns", let HTML handle structure && CSS handle the style + layout. Over the years CSS has evolved to be able to do much more than just change the font color && center things. It's now an incredibly expresive animation tool, as the curated pens in this [CSS Art Gallery](https://github.com/net-art-and-cultures/syllabus-and-notes/blob/master/notes/css-gallery/README.md) can attest to. those are very advanced examples, but to get a taste for what it's like to use CSS to create + animate drawings (rather than simply layout content) below are (more or less) the same steps I took in class to create the blinking emoji.
 

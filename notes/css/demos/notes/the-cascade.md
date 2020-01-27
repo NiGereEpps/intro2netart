@@ -3,7 +3,7 @@
 often times u will have more than one CSS rule applying to the same element, understanding how CSS "cascades" helps clarify confusion over which takes precedence as well as enables u to write cleaner/simpler stylesheets w/less code that takes advantage of the cascade.
 
 
-### [ex 1: what takes precedence?](https://nbriz.github.io/intro2netart/notes/css/demos/the-cascade-ex1.html)
+### [ex 1: what takes precedence?](https://nbriz.github.io/intro2netart/notes/css/demos/demosthe-cascade-ex1.html)
 
 this first example can be confusing b/c there are multiple lines of seemingly conflicting CSS, it's hard to know which takes precedence, but here are a few basic rules for figuring that out...
 
@@ -18,7 +18,7 @@ when u want to force precedence on something, u can add override both of the pre
 
 inspect these elements with ur Web Inspector && edit the CSS to see how it effects the elements. for example, try removing `!important` && see what happens.
 
-### [ex 2: more than one class](https://nbriz.github.io/intro2netart/notes/css/demos/the-cascade-ex2.html)
+### [ex 2: more than one class](https://nbriz.github.io/intro2netart/notes/css/demos/demosthe-cascade-ex2.html)
 
 in class (&& in [the CSS intro notes](https://github.com/net-art-and-cultures/syllabus-and-notes/tree/master/notes/css)) we discussed the different ways to include CSS on the page including inline-style using the HTML `style` attribute. so what happens when u have both a style attribute && a class attribute w/conflicting rules? like:
 
@@ -36,6 +36,6 @@ u can also apply more than one class to the same element, for example:
 
 notice that there's a space between "red" && "green", this means they are two different classes in the stylesheet`.red { }` && `.green { }`. both list of properties will be combined && applied to the `<div>`, but if there is a conflict, then the general "Last One" rule applies, whichever one of these two classes is defined last in the stylesheet takes precedence.
 
-### [ex 3: Inheritance](https://nbriz.github.io/intro2netart/notes/css/demos/the-cascade-ex3.html)
+### [ex 3: Inheritance](https://nbriz.github.io/intro2netart/notes/css/demos/demosthe-cascade-ex3.html)
 
 a child of another element will inherit many of it's CSS properties from it's parent element (like `font-size`, `font-family` && `color`) but it won’t inherit others (like `background-image`, `border` && `padding`). that said, u can force an element to inherit a property from it's parent which it would otherwise ignore by using the `inherit` value. in the example above, the `<h1>` tag is forced to inherit the border && padding values from it's parent (the `<div class="content">`). use ur Web Inspector to remove these && play w/the values to see how it works.
