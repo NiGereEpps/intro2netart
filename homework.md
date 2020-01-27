@@ -18,6 +18,6 @@ Watch the [Form Art Video](https://youtu.be/N0KpmV9CDfg) && complete the form ar
 
 ## day 4
 
-watch the three videos in the **Geocities** section of the class notes on [Netizens: Online Communities && Digital Folklore ](https://github.com/nbriz/intro2netart/blob/master/notes/markup/README.md) (optionally peruse the One Terabyte of Kilobyte Age blog +  read Olia Lialina's "Vernacular Web" essays, quoted && linked in those notes).
+watch the three videos in the **Geocities** section of the class notes on [Netizens: Online Communities && Digital Folklore ](https://github.com/nbriz/intro2netart/blob/master/notes/netizens/README.md) (optionally peruse the One Terabyte of Kilobyte Age blog +  read Olia Lialina's "Vernacular Web" essays, quoted && linked in those notes). Then read the main page of the [CSS class notes](https://github.com/nbriz/intro2netart/blob/master/notes/css/README.md) as well as the [introduction page](https://github.com/nbriz/intro2netart/blob/master/notes/css/basics.md) (refer to the other sections when u need 'em)
 
 watch the Intro to CSS Video [TBD] && complete the CSS art experiment.
