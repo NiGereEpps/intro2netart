@@ -1,3 +1,6 @@
+
+[![Idea Channel](images/idea-channel.jpg)](https://www.youtube.com/watch?v=6akcfoJ05Aw)
+
 # Cascading Style Sheets (CSS)
 
 the point of CSS (Cascading Style Sheets) is to separate “presentation” (CSS) from “content” (HTML). the separation of a document’s content && its presentation is a popular tech-design philosophy/methodology. it means u can display the same content (HTML) in different ways (w/different styles) for different contexts: laptops, smart phones, in print, on a braille tactile device, etc. it also means a text-to-speech app can understand what’s “content” && what’s not + reader-views/apps can override the default CSS && use alternative “presentations”. depending on how u implement ur CSS, it also enables u to make site-wide changes in a single document which can make updating (even redesigning the entire aesthetic) a site drastically easier.
