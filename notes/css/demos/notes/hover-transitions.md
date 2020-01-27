@@ -2,7 +2,7 @@
 
 In the class notes reviewing the basics of [CSS](https://github.com/net-art-and-cultures/syllabus-and-notes/tree/master/notes/css) i mention that CSS selector's can also be followed by [pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes), which specify a particular "state" the element can be in. the example below shows a very common use of the `:hover` pseudo-class.
 
-### [ex 1: hovering over links](https://nbriz.github.io/intro2netart/notes/css/demos/demoshover-transitions-ex1.html)
+### [ex 1: hovering over links](https://nbriz.github.io/intro2netart/notes/css/demos/demos/hover-transitions-ex1.html)
 
 ```css
 a {
@@ -22,7 +22,7 @@ in this example i've chanted the default link color to a more pleasent blue (in 
 
 an element's style can change during the user's interaction w/the page (either via JavaScript or via pseudo-classes/elements like :hover, :visited, etc) && when they do it happens immediately. the CSS transition property[s] is a way to do just that: transition between one style && another (in the event that they change), we'll use :hover in this tutorial (+other pseudo-classes in the example link) but don't forget there are other ways to change an element's style (&&thus other ways to leverage the transition property[s]), like w/JavaScript for example.
 
-### [ex 2: CSS Transitions](https://nbriz.github.io/intro2netart/notes/css/demos/demoshover-transitions-ex2.html)
+### [ex 2: CSS Transitions](https://nbriz.github.io/intro2netart/notes/css/demos/demos/hover-transitions-ex2.html)
 
 u need to two properties to get things to started "transition-property" which takes as its value the property (or list of properties separated by commas) u want to transition for ex `transition-property: color;`, && "transition-duration" which is the time u want it to take to transition (written in either seconds like 1.5s or milliseconds like 1500ms) like this `transition-duration: 0.5s;`
 
