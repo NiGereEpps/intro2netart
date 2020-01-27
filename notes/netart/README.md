@@ -12,7 +12,7 @@ for a quick crash course on the early "net.art" movement read Rachel Greene's es
 
  Born in Belgrade, Cosic emigrated to Slovenia in the early '90s. While U.S. dotcom companies seized on the commercial potential of the Web, Eastern Europe was critical to its artistic development. The break-up of the Soviet Union created an optimistic, open atmosphere, exemplified by the web. Russian artists [Olia Lialina](http://art.teleportacia.org/olia.html) and [Alexei Shulgin](http://www.easylife.org/) were hugely influential. Lialina's [My Boyfriend Came Back From The War](http://www.teleportacia.org/war/war2.htm), from 1996, is a hypertext narrative, as envisioned by the godfather of hypertext, Vannevar Bush, at the end of World War II. Shulgin's [Form Art](http://www.c3.hu/collection/form/) manipulates HTML's layout capabilities, using checkboxes, radio buttons and text fields to create forms. The appearance varies from browser to browser, evolving with every release, as if it were alive.
 
- ![Olia Lialiana and Alexei Shulgin](images/olia_alexi.jpg)![Form Art](images/shulgin.jpg)
+ ![Olia Lialiana and Alexei Shulgin](images/olia_alexi.jpg)
 
  [![Form Art](images/form-art.png)](https://sites.rhizome.org/anthology/form-art.html)
  > what Form Art looks like [today](http://www.c3.hu/collection/form/), what it looked like [then](https://sites.rhizome.org/anthology/form-art.html)
