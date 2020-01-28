@@ -52,6 +52,8 @@ there are a number of different kinds of selectors (&& thus a number of ways to 
 |`.stuff { }` **Class Selector**|this rule will apply to all elements w/a class attribute that matches it (for example `<div class="stuff">`), u can mix type/class selectors like this` p.stuff { }`, that will only target p tags with a `class="stuff"`|
 |`#info { }` **ID Selector**|this rule will apply to all elements w/an id attribute that matches it (for example `<div id="info">`)|
 
+for more selectors check out my [CSS SELECTOR NOTES](selectors.md)
+
 selector’s can also be followed by **pseudo-classes**, which specify a particular “state” the element can be in. the example below shows a very common use of the `:hover` pseudo-class.
 
 ![css](images/cssrule3.png)
