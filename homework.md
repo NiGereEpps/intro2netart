@@ -21,3 +21,9 @@ Watch the [Form Art Video](https://youtu.be/N0KpmV9CDfg) && complete the form ar
 watch the three videos in the **Geocities** section of the class notes on [Netizens: Online Communities && Digital Folklore ](https://github.com/nbriz/intro2netart/blob/master/notes/netizens/README.md) (optionally peruse the One Terabyte of Kilobyte Age blog +  read Olia Lialina's "Vernacular Web" essays, quoted && linked in those notes). Then read the main page of the [CSS class notes](https://github.com/nbriz/intro2netart/blob/master/notes/css/README.md) as well as the [introduction page](https://github.com/nbriz/intro2netart/blob/master/notes/css/basics.md) (refer to the other sections when u need 'em)
 
 watch the [intro to CSS video](https://youtu.be/q71m_mHGSDw) && complete the CSS Art experiment.
+
+## day 5
+
+Watch [Aunauthorized Access](https://archive.org/details/UnauthorizedAccess). This doc is a gem! made in 1994 by Annaliza Savage, she traveled to 15 cities in four countries to record the stories of notorious hackers (&& hacker culture) in that era. Not the DIY home-brew tinkier sort of hacker (like the kind u meet at hack-a-thon or makerspace) but the "black hoodie" breaking into systems sort of hacker. Though illegal, this was a time before the "[Cyberwar](https://www.viceland.com/en_us/show/cyberwar)" era we're in now, most of these hackers weren't paid, they weren't after money, they did what they did either for political/activist reasons, or for the challenge, or sometimes just for fun.
+
+watch my CSS Wed Design + Layout tutorial && complete the home-page redesign experiment.
