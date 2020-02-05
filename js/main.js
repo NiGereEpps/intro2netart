@@ -1,4 +1,4 @@
-const list = [ 'none', 'nick' ]
+const list = [ 'NO-CSS', 'nick' ]
 
 const select = document.createElement('select')
 select.style.position = 'fixed'
@@ -9,6 +9,11 @@ document.body.appendChild(select)
 select.addEventListener('change', (e) => {
   let url = e.target.value
   document.querySelector('#style').setAttribute('href', url)
+  if (!url.includes('NO-CSS')) {
+    document.querySelector('#under-construction').style.display = 'none'
+  } else {
+    document.querySelector('#under-construction').style.display = 'inline'
+  }
 })
 
 function createOption (name) {
