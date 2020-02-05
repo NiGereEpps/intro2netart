@@ -1,129 +1,127 @@
-<!-- this is a comment! -->
-<!-- comments are for humans, so the browser ignores these lines. -->
-<!-- there are comments above different lines to explain the HTML code below -->
-
-<!-- for example... -->
-
-<!-- this is the "DOCYTPE" a declaration that tells ur browser that the code -->
-<!-- that follows conforms to the standards of a particular version of HTML, -->
-<!-- these used to be long && complicated but with the latest version of -->
-<!-- HTML (HTML5) its now short && sweet. -->
 <!DOCTYPE html>
-<!-- after that we've got our first official element, <html> the opening tag  -->
-<!-- indicates that everything in between it && the closing </html> is going to  -->
-<!-- be HTML code. the lang="en" attribute let's the browser know that the -->
-<!-- page's contents is going to be in "english". -->
-
-<!-- inside of the HTML element there are two major elements,  -->
-<!-- the <head> ... </head> which contains information about the page,  -->
-<!-- && the <body> ... </body> which contains everything that  -->
-<!-- will show up inside the browser window. -->
 <html lang="en">
   <head>
-    <!-- the only thing we absolutely need inside of our head element is  -->
-    <!-- a <title> Page Title </title>. u won't see this inside ur browser window  -->
-    <!-- (b/c its not in the body) but will show up in lots of other places  -->
-    <!-- for example on ur browser tab, && also in google search results. -->
     <title>Introduction to Internet Art: University of Chicago</title>
-
-    <!-- this meta tag is a description of ur page -->
-    <!-- it shows up in search results or when shared on social media -->
     <meta name="description" content="a class website for Introduction to Internet Art (MAAD 23631) at the University of Chicago">
-    <!-- this one is for the author of the page -->
     <meta name="author" content="Nick Briz">
-
-    <!-- this meta tag tells the browser to use the unicode character set -->
-    <!-- so u can use characters beyond the ones found in ur keyboard,  -->
-    <!-- for ex: ñ, 悆 or ☺ -->
     <meta charset="utf-8">
+    <link rel="icon" type="image/png"  href="https://raw.githubusercontent.com/nbriz/intro2netart/master/images/favicon.png">
 
-    <!-- this is so ur page looks good on mobile -->
-    <!-- more details can be found in the CSS Layout notes -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/none.css" id="style">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Volkhov&display=swap" rel="stylesheet">
 
-    <!-- this is for the little icon that shows up in the browser tab -->
-    <!-- this assumes u have a file called "favicon.png" in an images folder -->
-    <link rel="icon" type="image/png"  href="images/favicon.png">
   </head>
   <body>
-    <!-- inside the body u include all of the elements that will create  -->
-    <!-- the structure of ur content, for example u can create headers  -->
-    <!-- with <h1> ... </h1> && smaller headers with <h2> ... </h2>  -->
-    <!-- && u can create paragraph containers w/ <p> ... </p>. -->
 
-    <!-- the <center> tag is now considered "obsolete" or "depreciated" -->
-    <!-- these kind of "layout" details are now defined in CSS, so it's best to -->
-    <!-- avoid using the <center> tag, that said, it still works as u can see -->
-    <!-- (assuming things look centered in ur browser), so u could still use it to -->
-    <!-- experiment or make a point (as i'm doing here ^__^)   -->
-    <center>
-      <h1>Introduction to Internet Art</h1>
-      <h3>MAAD 23631 1 (Winter 2020)</h3>
-      <br>
+    <header>
+      <h1>Intro to Internet Art</h1>
+      <h2>MAAD 23631 1 (Winter 2020)</h2>
+    </header>
 
-      <img src="images/uc.gif" alt="under construction">
+    <section class="info-table">
+      <div>
+        <div>where:</div>
+        <div>JCL 134</div>
+      </div>
+      <div>
+        <div>when:</div>
+        <div>Mon 4:30 - 7:20</div>
+      </div>
+      <div>
+        <div>professor:</div>
+        <div>Nick Briz</div>
+      </div>
+      <div>
+        <div>email:</div>
+        <div>nb<i></i>riz@uchi<i></i>cago.edu</div>
+      </div>
+    </section>
 
+
+    <blockquote cite="https://www.goodreads.com/book/show/23492802-magic-and-loss">
+      <p>The Web represents a grand emotional, sensory, and intellectual adventure for anyone willing to explore it actively. [...] For artists, ignoring the imperative to grasp the cultural implications of the Internet means risking irrelevance. [...] As human discourse adapts to its new home, everything we do and think as human beings will be and is being shaped by new values. [...] If it’s ever fair to say that anything has “changed everything,” it’s fair to say so about the Internet.</p>
+      <cite>
+        <a href="https://www.goodreads.com/book/show/23492802-magic-and-loss" target="_blank">Virginia Heffernan</a>
+      </cite>
+    </blockquote>
+
+    <img class="mtaa" src="https://raw.githubusercontent.com/nbriz/intro2netart/master/images/mtaa.jpg" alt="mtaa - simple net art diagram">
+
+    <article>
+      <h3>Course Description</h3>
       <p>
-        <b>where</b>: JCL 134;
-        <br>
-        <b>when</b>: Mon 4:30 - 7:20;
-        <br>
-        <b>professor</b>: Nick Briz;
-        <br>
-        <b>email</b>: nb<i></i>riz@uchi<i></i>cago.edu;
+        This studio course examines the Internet as an artistic medium (computers, networks and code), as an environment (media ecology) and as "the masterpiece of human civilization" (à la Virginia Heffernan). Our focus will be on producing creative contributions to this collaborative space by learning the core coding languages of the web, HTML and CSS. While we will occasionally be discussing the contributions of self-identified artists (from the net.art movement of the 1990s for example) we will generally be taking a broader cultural view, exploring the histories, philosophies and practices of various online cultural niches. We will learn how hackers use the command line to break into networks and how the open source community use special tools that facilitate large scale collaborations. We'll learn about AI praised by singularity evangelists in the "age of spiritual machines" as well as the digital rights activists who protest against the algorithms of surveillance capitalism. Throughout this journey, we will be learning the craft of the Internet, and in particular browsers and the web. We will be borrowing techniques from demoscensters, meme-makers, cyberpunks and web designers as we learn to produce work with the web's generalized media format (HTML and CSS) as well as how to distribute that work online (deploying web sites).
       </p>
+      <h3>Learning Goals</h3>
+      <ul>
+        <li>
+          Solid understanding of what the Internet is and how it works (specifically the web)
+        </li>
+        <li>
+          General background on key cultural/historical figures/movements and motivations which have informed the development of online culture (with a particular emphasis on Internet Art beginning with the 'net.art' movement of the 1990s).
+        </li>
+        <li>
+          Foundational understanding of web coding concepts, tools &amp;&amp; working knowledge HTML and CSS.
+        </li>
+        <li>
+          General understanding of the political/social/aesthetic implications of living in a networked culture
+        </li>
+      </ul>
+    </article>
 
-      <br>
-      <img src="images/mtaa.jpg" alt="mtaa - simple net art diagram">
-      <br>
+    <nav>
+      <section>
+        <h3>Notes</h3>
+        <ul>
+          <li>
+            <a href="https://github.com/nbriz/intro2netart/blob/master/notes/wtf-is-the-net/README.md">wtf is the Internet ???</a>
+          </li>
+          <li>
+            <a href="https://github.com/nbriz/intro2netart/blob/master/notes/markup/README.md">markup languages</a>
+          </li>
+          <li>
+            <a href="https://github.com/nbriz/intro2netart/blob/master/notes/html/README.md">HTML (hypertext markup language)</a>
+          </li>
+          <li>
+            <a href="https://github.com/nbriz/intro2netart/blob/master/notes/netart/README.md">net.art</a>
+          </li>
+          <li>
+            <a href="https://github.com/nbriz/intro2netart/blob/master/notes/hypermedia/README.md">hypermedia</a>
+          </li>
+          <li>
+            <a href="https://github.com/nbriz/intro2netart/blob/master/notes/netizens/README.md">netizens && digital folklore</a>
+          </li>
+          <li>
+            <a href="https://github.com/nbriz/intro2netart/blob/master/notes/css/README.md">CSS (cascading style sheets)</a>
+          </li>
+        </ul>
+      </section>
 
-      <p>
-        <a href="rules.html">rules 4 teachers + students</a>
-        <br>
-        <br>
-        <a href="syllabus.html">syllabus</a>
-        <br>
-        <br>
-        <a href="https://github.com/nbriz/intro2netart/blob/master/notes/wtf-is-the-net/README.md">wtf is the Internet ???</a>
-        <br>
-        <br>
-        <a href="https://github.com/nbriz/intro2netart/blob/master/notes/markup/README.md">markup languages</a>
-        <br>
-        <br>
-        <a href="https://github.com/nbriz/intro2netart/blob/master/notes/html/README.md">HTML (hypertext markup language)</a>
-        <br>
-        <br>
-        <a href="https://github.com/nbriz/intro2netart/blob/master/notes/netart/README.md">net.art</a>
-        <br>
-        <br>
-        <a href="https://github.com/nbriz/intro2netart/blob/master/notes/hypermedia/README.md">hypermedia</a>
-        <br>
-        <br>
-        <a href="https://github.com/nbriz/intro2netart/blob/master/notes/netizens/README.md">netizens && digital folklore</a>
-        <br>
-        <br>
-        <a href="https://github.com/nbriz/intro2netart/blob/master/notes/css/README.md">CSS (cascading style sheets)</a>
-        <br>
-      </p>
-
-      <br>
-
-      <p>
-        <a href="https://docs.google.com/document/d/1Y-Dh8TBOQn0yM2XwJUefxeO-rt48C-EN8YinvtvlMIw/edit">questions doc</a>
-        <br>
-        <a href="https://github.com/nbriz/intro2netart/blob/master/homework.md">homework page</a>
-        <br>
-        <a href="http://67.205.128.6/">www playGround</a>
-        <br>
-        <a href="https://github.com/nbriz/intro2netart/blob/master/links.md">links page</a>
-        <br>
-        <a href="https://github.com/nbriz/intro2netart/blob/master/resources.md">resources page</a>
-      </p>
-    </center>
-
-
-    <br>
-    <br>
-    <br>
+      <section>
+        <h3>Links</h3>
+        <ul>
+          <li>
+            <a href="syllabus.html">syllabus</a>
+          </li>
+          <li>
+            <a href="https://docs.google.com/document/d/1Y-Dh8TBOQn0yM2XwJUefxeO-rt48C-EN8YinvtvlMIw/edit">questions doc</a>
+          </li>
+          <li>
+            <a href="https://github.com/nbriz/intro2netart/blob/master/homework.md">homework page</a>
+          </li>
+          <li>
+            <a href="http://67.205.128.6/">www playGround</a>
+          </li>
+          <li>
+            <a href="https://github.com/nbriz/intro2netart/blob/master/links.md">links page</a>
+          </li>
+          <li>
+            <a href="https://github.com/nbriz/intro2netart/blob/master/resources.md">resources page</a>
+          </li>
+        </ul>
+      </section>
+    </nav>
+    <script src="js/main.js"></script>
   </body>
 </html>
