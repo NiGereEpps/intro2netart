@@ -26,4 +26,4 @@ watch the [intro to CSS video](https://youtu.be/q71m_mHGSDw) && complete the CSS
 
 Watch [Aunauthorized Access](https://archive.org/details/UnauthorizedAccess). This doc is a gem! made in 1994 by Annaliza Savage, she traveled to 15 cities in four countries to record the stories of notorious hackers (&& hacker culture) in that era. Not the DIY home-brew tinkier sort of hacker (like the kind u meet at hack-a-thon or makerspace) but the "black hoodie" breaking into systems sort of hacker. Though illegal, this was a time before the "[Cyberwar](https://www.viceland.com/en_us/show/cyberwar)" era we're in now, most of these hackers weren't paid, they weren't after money, they did what they did either for political/activist reasons, or for the challenge, or sometimes just for fun.
 
-watch my CSS Wed Design + Layout tutorial && complete the home-page redesign experiment.
+watch my [CSS Wed Design + Layout](https://youtu.be/9S0xxJhRI-E ) tutorial && complete the home-page redesign experiment.
