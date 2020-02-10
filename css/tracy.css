@@ -1,0 +1,142 @@
+/* .grids{ */
+article li {
+	background-color:grey;
+	border: 3px solid white;
+	padding: 10px;
+
+}
+header{
+	font-family: Courier New;
+	background-image:url('https://i0.wp.com/media.boingboing.net/wp-content/uploads/2014/03/1302074.gif?w=970');
+	background-repeat:repeat;
+	padding: 100px;
+	position: sticky;
+	position: -webkit-sticky;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	font-weight: 700;
+	font-size: 35px;
+	text-transform: uppercase;
+
+}
+h2{
+	color: white;
+	text-align: center;
+	font-weight: 500;
+	font-size:25px;
+	text-transform: uppercase;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.info-table {
+	color: white;
+	max-width:500px;
+	box-sizing:border-box;
+	margin: 20px auto;
+	font-family: Courier;
+
+}
+
+.info-table > div{
+ display:grid;
+ grid-template-columns:50% 50%;
+ grid-column-gap: 10px;
+}
+
+.info-table>div>div:first-child {
+	font-weight: 900;
+	text-align: right;
+}
+
+.mtaa{
+	display: block;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+blockquote{
+	max-width:500px;
+	margin: 0 auto;
+	border: 4px dashed green;
+	padding-left: 7px;
+	padding-right: 7px;
+	font-style: italic;
+	line-height: 20px;
+	box-sizing:border-box;
+}
+
+blockquote >cite{
+	display: block;
+	text-align: right;
+	color: white;
+}
+
+	blockquote >cite:before{
+	content:"";
+			text-decoration: none;
+}
+
+blockquote >cite:hover{
+	color:#50acc5;
+}
+article, nav{
+	max-width: 500pt;
+	margin: 0 auto;
+}
+
+article> ul{
+	display: grid;
+	max-width: 500px;
+	grid-template-columns:50% 50%;
+	grid-row-gap: 10px;
+	grid-column-gap: 25px;
+	margin: 0 auto;
+}
+h3{
+	text-transform: uppercase;
+	color: green;
+	max-width:500px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+body{
+ 	background: rgb(238,234,234);
+  background: linear-gradient(0deg, rgba(238,234,234,1) 0%, rgba(0,0,0,1) 100%);
+	color: white;
+}
+
+nav{
+	display: flex;
+	margin: 20px auto;
+	max-width: 500px;
+  font-family:Times;
+	line-height:20px;
+	border-top: 4px dashed white;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	curser:crosshair;
+}
+
+a:hover{
+	color:green;
+}
+
+/* .coursedes{ */
+article > p {
+	max-width:500px;
+	margin: 0 auto;
+	font-family:Times;
+	line-height:20px;
+
+}

@@ -1,0 +1,108 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background-image: url(https://d5wt70d4gnm1t.cloudfront.net/media/a-s/articles/1352-274908355346/90s-net-art-900x450-c.jpg);
+	min-height: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+header:hover {
+	background-image: url(https://media2.giphy.com/media/zhbrTTpmSCYog/giphy.gif);
+}
+
+h1, h2 {
+	color: white;
+	font-family: DejaVu Sans Mono, monospace;
+	font-weight: 100;
+	text-align: center;
+	margin: 30px:
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+.info-table {
+	margin: 90px;
+	padding: 20px;
+	color: white;
+	background-color: black;
+	font-family: DejaVu Sans Mono, monospace;
+}
+
+.info-table > div {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	text-align: center;
+}
+
+.info-table:hover {
+	animation-name: spin;
+	animation-duration: 5000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	background-image: url();
+}
+
+@keyframes spin {
+	from {
+		transform:rotate(0deg);
+	}
+	to {
+		transform:rotate(360deg);
+	}
+}
+
+blockquote {
+	background-color: black;
+	color: white;
+	font-family: DejaVu Sans Mono, monospace;
+}
+
+blockquote:hover {
+	color: yellow;
+	font-size: 24px;
+}
+
+article {
+	background-color: black;
+	color: white;
+	font-family: DejaVu Sans Mono, monospace;
+	text-align: center;
+}
+
+article:hover {
+	color: black;
+	background-color: white;
+}
+
+h3 {
+	font-weight: 100;
+	color: #7FFF00;
+}
+
+nav {
+	background-color: black;
+	font-family: DejaVu Sans Mono, monospace;
+	text-align: center;
+}
+
+nav:hover {
+	background-color: yellow;
+	animation-name: switch;
+	animation-duration: 10s;
+}
+
+@keyframes switch {
+	0%   {background-color: red;}
+	25%  {background-color: yellow;}
+	50%  {background-color: blue;}
+	100% {background-color: green;}
+}

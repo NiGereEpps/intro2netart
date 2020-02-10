@@ -1,0 +1,307 @@
+
+ /*_________________________CCS_________________________*/
+
+ /*_________________________Declare Variables_________________________*/
+ :root{
+	 --white: #faf9f7;
+	 --black: #000000;
+	 --blue: #11cfcf;
+ }
+
+ /*_________________________Type Selectors_________________________*/
+ body{
+	 padding: 0px;
+	 margin: 0px;
+	 font-family: sans-serif;
+	 background-color: var(--black);
+	 color: var(--white);
+ }
+
+ header{
+	 background-color: var(--black);
+	 color: var(--white);
+	 text-align: center;
+	 transition-property: filter, transform;
+		 transition-duration: 2s;
+	 transition-timing-function: ease-in;
+	 position: fixed;
+   margin: 0, auto;
+	 filter: invert(0%);
+	 clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+   opacity: 0.9;
+	 z-index: 999999999;
+	 width: 100%;
+
+ }
+
+ header:hover{
+	 filter: invert(100%);
+	 cursor: pointer;
+	 transform: scale(1.5);
+	 opacity: 1;
+	 clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+ }
+
+ h1, h2, h3 {
+	 font-weight: 100;
+	 text-transform: uppercase;
+ }
+
+ header > h1 {
+	 font-size: 25px;
+ }
+
+ header > h2 {
+	 font-size: 15px;
+ }
+
+ img {
+	 transition-property: filter opactiy;
+	 opacity: 1;
+	 margin: 0 auto;
+	 filter: invert(100%);
+		 transition-duration: 1s;
+	 transition-timing-function: ease-in;
+	 position: relative;
+	 top: -150px;
+	 width:auto;
+   display:table;
+ }
+
+ img:hover {
+	 filter: invert(0%);
+	 opacity: 0;
+	 cursor: pointer;
+ }
+
+ blockquote{
+	margin: auto;
+	position: relative;
+	max-width: 400px;
+	top: 100px;
+	transition-property: color;
+		transition-duration: 3s;
+	transition-timing-function: ease-in;
+	filter: invert(0%);
+ }
+
+ a{
+	 text-decoration: none;
+	 color: var(--white);
+ }
+
+ article{
+	 display: grid;
+	 grid-template-columns: 25% 75%;
+	 position: relative;
+	 top: -100px;
+ }
+
+  article > h3 {
+
+		border-bottom: 1px solid var(--white);
+	 width: 90%;
+ }
+
+ article > p {
+
+	 position: relative;
+	 left: 30px;
+ }
+
+ nav{
+	 display: grid;
+	 grid-template-columns: 50% 50%;
+	 position: relative;
+	 top: -100px;
+ }
+
+
+  /*_________________________Classes_________________________*/
+ .link_hover{
+	 transition-property: color, transform;
+	 transition: color, 2s;
+	 display: inline-block;
+	 text-decoration: none;
+		 transition-duration: 2s;
+	 transition-timing-function: ease-in;
+	 color: var(--blue);
+ }
+
+ .link_hover_list{
+	 transition-property: color, transform;
+	 transition: color, 2s;
+	 display: inline-block;
+	 text-decoration: none;
+		 transition-duration: 2s;
+	 transition-timing-function: ease-in;
+	 color: var(--blue);
+ }
+
+ .link_hover > a {
+	 transition: color, 2s;
+	 color: var(--white);
+ }
+
+ .link_hover:hover{
+	 transform: scale(1.25);
+	 color: var(--blue);
+ }
+
+ .link_hover:hover > a {
+	 transition: color, 2s;
+	 color: var(--blue);
+ }
+
+ .link_hover_list{
+	 transition-property: color, transform;
+	 transition: color, 200ms;
+	 display: inline-block;
+	 text-decoration: none;
+		 transition-duration: 200ms;
+	 transition-timing-function: ease-in;
+	 color: var(--white);
+ }
+
+ .link_hover_list:hover{
+	 color: var(--blue);
+	 transform: scale(1.25) translate(10px,0px);
+ }
+
+/* .info { */
+.info-table {
+	position: relative;
+	margin: 40px auto;
+	padding: 20px;
+	top: 50px;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+}
+
+ /* .info > div > div:first-child{ */
+.info-table > div > div:first-child{
+	 font-size: 24px;
+ }
+ /* .info > div > div:last-child{ */
+.info-table > div > div:first-child{
+	 position: relative;
+	 left: 20px;
+	 top: 5px;
+ }
+
+ /* .underline  { */
+.info-table > div > div:first-child, nav h3 {
+	border-bottom: 1px solid var(--white);
+	width: 50%;
+}
+
+/* .on_load_header{ */
+header {
+	 animation-delay: 5s;
+	animation: trans_in_header 10s;
+ }
+
+/* .on_load_h1{ */
+header h1 {
+ animation-delay: 5s;
+	animation: trans_in_h1 10s;
+}
+
+/* .on_load_h2{ */
+header h2 {
+	animation-delay: 5s;
+	animation: trans_in_h2 s;
+}
+
+/*_________________________Responsive Design For Mobile_________________________*/
+
+@media (max-width: 500px) {
+
+header{
+	transform: scale(0.6);
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+
+}
+
+/* .info { */
+.info-table {
+	position: relative;
+	top: 100px;
+
+	margin: 40px auto;
+	padding: 30px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+/* .info > div > div:first-child { */
+.info-table > div > div:first-child {
+	font-size: 18px;
+}
+
+/* .info > div > div:last-child { */
+.info-table > div > div:last-child {
+	font-size: 12px;
+	padding-bottom: 20px;
+}
+
+ .mtaa, blockquote, article, nav{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.mtaa{
+	width: 100%;
+	top: 0px;
+	padding-top: 80px;
+}
+
+}
+
+/*_________________________KeyFrame Animation_________________________*/
+
+@keyframes trans_in_header {
+0%{
+	filter: invert(100%);
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+	opacity: 1;
+	top: 0px;
+  left: 0px;
+
+}
+90%{
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+	opacity: 1;
+}
+100%{
+	 filter: invert(0%);
+	 clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+   opacity: 0.8;
+	 margin: 0, auto;
+
+}
+}
+
+
+@keyframes trans_in_h1 {
+	from{
+		font-size: 100px;
+	}
+	to{
+		font-size: 25px;
+	}
+
+
+@keyframes trans_in_h2 {
+	from{
+		font-size: 100px;
+	}
+	to{
+		font-size: 15px;
+	}

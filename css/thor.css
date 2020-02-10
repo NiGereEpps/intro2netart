@@ -1,0 +1,54 @@
+h1{
+  text-align: center;
+ }
+.appear{
+	display: none;
+  position: absolute;
+}
+.invis{
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.invis:hover + .appear{
+  display: block;
+}
+h3{
+	outline: 2px solid black;
+	margin: 12px;
+	background-color: red;
+	font-family: "Verdana", Verdana, sans-serif;
+}
+a{
+	text-decoration: none;
+	font-style: italic;
+	font-family: "Verdana", Verdana, sans-serif;
+	color: green;
+}
+ul{
+	border-left: 16px solid yellow;
+}
+li{
+	list-style-type: none;
+	margin-left: auto;
+	position: relative;
+}
+header{
+	background-color: green;
+	width: 100%;
+	color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left:0;
+}
+.info{
+  font-style: italic;
+  text-align: center;
+  margin-top: 100px;
+}
+p{
+  margin-left: 25%;
+  margin-right: 25%;
+}

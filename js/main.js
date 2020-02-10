@@ -1,4 +1,20 @@
-const list = [ 'NO-CSS', 'nick' ]
+const list = [
+  'NO-CSS',
+  'briz',
+  'cherry',
+  'ni\'gere',
+  'kayla',
+  'thor',
+  'tracy',
+  'ashley',
+  'olivia',
+  'nick',
+  'neha',
+  'sara',
+  'abdo',
+  'adie',
+  'hunter'
+]
 
 const select = document.createElement('select')
 select.style.position = 'fixed'

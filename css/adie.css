@@ -1,0 +1,177 @@
+body {
+padding: 0px, 0px;
+margin: 0px;
+margin-top: 100px;
+}
+
+h1,h2 {
+text-align: center;
+color: #408697;
+font-family: Helvetica;
+font-size: 100px;
+}
+
+h2 {
+font-size: 40px;
+}
+
+/* .bold { */
+.info-table > div > div:first-child {
+font-weight: bold;
+}
+
+/* .navbar { */
+nav {
+overflow: hidden;
+background-color: #363538;
+top: 0;
+position: fixed;
+width: 100%;
+}
+
+/* .navbar section { */
+nav section {
+float: left;
+font-size: 16px;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+/* .dropdown { */
+nav section {
+float: left;
+overflow: hidden;
+}
+
+/* .dropdown .dropbtn { */
+nav section h3 {
+border: none;
+outline: none;
+background-color: #F6F6F6;
+color: #363538;
+font-family: Helvetica;
+font-size: 20px;
+text-transform: uppercase;
+padding: 14px 16px;
+margin: 0;
+}
+
+/* .dropdown-content { */
+nav ul {
+display: none;
+position: fixed;
+background-color: #8D8C8A;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+z-index: 1;
+list-style-type: none;
+}
+
+/* .dropdown-content a { */
+nav ul a {
+  float: none;
+	color: #363538;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  text-align: left;
+	border-bottom: 1px solid black;
+  font-family: Helvetica;
+}
+
+/* .dropdown-content a:hover { */
+nav ul a:hover {
+	background-color: #F6F6F6
+}
+
+/* .dropdown:hover .dropdown-content { */
+nav section:hover ul {
+  display: block;
+}
+
+/* .info { */
+.info-table {
+  border: 2px solid #408697;
+  border-radius: 4px;
+  text-align: center;
+  padding: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: 0 30%;
+  font-family: Helvetica;
+  font-size: 15px;
+}
+
+/* .info:hover{ */
+.info-table:hover {
+  background-image: url("https://artbase.rhizome.org/images/2/21/Ca-765.jpg");
+  background-repeat: no-repeat;
+  background-color: black;
+  color: black;
+  background-size: 100%;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* .quote{ */
+blockquote {
+  padding: 60px;
+  text-align: justify;
+  margin: 0 10%;
+  color: #408697;
+  font-weight: bold;
+  font-family: Helvetica;
+  font-size: 20px;
+}
+
+/* .name{ */
+cite > a {
+  color: #408697;
+}
+
+/* .name:hover { */
+cite > a:hover {
+  color: #452D6F4;
+}
+
+/* .img { */
+.mtaa {
+  height: 250px;
+  left: 30%;
+  position: relative;
+  width: 350px;
+  border: 6px solid #363538;
+}
+
+/* .img:hover { */
+.mtaa:hover {
+  border: 6px solid #408697;
+}
+
+/* .title { */
+article > h3 {
+  padding: 20px;
+  color: #408697;
+  text-align: justify;
+  margin: 0 5%;
+  font-family: Helvetica;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* .text { */
+article > p {
+  padding: 10px;
+  text-align: justify;
+  margin: 0 5%;
+  color: #363538;
+  font-family: Helvetica;
+  font-size: 15px;
+}
+
+/* .text:hover { */
+article > p:hover {
+  font-size: 20px;
+
+}
