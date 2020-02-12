@@ -33,4 +33,4 @@ watch my [CSS Wed Design + Layout](https://youtu.be/9S0xxJhRI-E ) tutorial && co
 
 [Cyberpunk](https://archive.org/details/cyberpunk_201410): this 1990 doc by Marianne Trench about the cyberpunk culture is hella 90s (the aesthetic is to die for). Goes into all things cyberpunk from Virtual Reality to "cyber arts" to mind machines. some great interviews in this one, including William Gibson (author && father of cyberpunk), to Timothy Leary (the notorious LSD evangelist) to Jaron Lanier (VR pioneer turned digital rights advocate). Quite a gem.
 
-watch my WebVR [TBD] tutorial && compete the WebVR experiment.
+watch my [WebVR tutorial](https://youtu.be/0OAtOwGXz4s) && compete the WebVR experiment.
