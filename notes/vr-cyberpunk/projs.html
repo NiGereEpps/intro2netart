@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>VR Projects</title>
+    <style media="screen">
+      iframe {
+        position: absolute;
+        top: 0px; left: 0px;
+        z-index: 100;
+        display: none;
+      }
+
+      button {
+        border: 1px solid black;
+        background: #fff;
+        font-family: monospace;
+        padding: 20px 40px;
+        text-transform: uppercase;
+      }
+
+      section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+
+    <iframe></iframe>
+
+
+    <section>
+      <div>
+        <button>Start Carousel</button>
+
+        <ul>
+          <li><a href="https://yue-cherry-ying.github.io/cyberspace/">cherry</a></li>
+          <li><a href="https://nigereepps.github.io/webvr/">ni'gere</a></li>
+          <li><a href="https://kthekeener.github.io/cyberspace/">kayla</a></li>
+          <li><a href="https://thoranderskow.github.io/netart_hw_VR/">thor</a></li>
+          <li><a href="https://tracyrtliu.github.io/metal/">tracy</a></li>
+          <li><a href="https://ashdiaz.github.io/webvr/">ashley</a></li>
+          <li><a href="https://burgherolivia.github.io/webvr/">olivia</a></li>
+          <li><a href="https://nbso13.github.io/drizzle_on_the_mushroom_jungle/">nick</a></li>
+          <li><a href="https://wookiee2187.github.io/cyberspace/">neha</a></li>
+          <li><a href="https://ygoldstein15.github.io/cyberspace/">yitz</a></li>
+          <li><a href="https://sarasalvino.github.io/salvinohw/">sara</a></li>
+          <!-- <li><a href="https://akabdo.github.io/synthwave3D/">abdo</a></li> -->
+          <!-- <li><a href="https://adiepresent.github.io/race_track/">adie</a></li> -->
+          <li><a href="https://hbrown1994.github.io/web_vr_hb/">hunter</a></li>
+          <!-- <li><a href="https://jennyjee99.github.io/webvr/">jenny</a></li> -->
+        </ul>
+      </div>
+    </section>
+
+    <script>
+
+
+      const b = document.querySelector('button')
+      const f = document.querySelector('iframe')
+      f.width = innerWidth;
+      f.height = innerHeight;
+
+      const urls = [
+        'https://yue-cherry-ying.github.io/cyberspace/',
+        'https://nigereepps.github.io/webvr/',
+        'https://kthekeener.github.io/cyberspace/',
+        'https://thoranderskow.github.io/netart_hw_VR/',
+        'https://tracyrtliu.github.io/metal/',
+        'https://ashdiaz.github.io/webvr/',
+        'https://burgherolivia.github.io/webvr/',
+        'https://nbso13.github.io/drizzle_on_the_mushroom_jungle/',
+        'https://wookiee2187.github.io/cyberspace/',
+        'https://ygoldstein15.github.io/cyberspace/',
+        'https://sarasalvino.github.io/salvinohw/',
+        // 'https://akabdo.github.io/synthwave3D/',
+        // 'https://adiepresent.github.io/race_track/',
+        'https://hbrown1994.github.io/web_vr_hb/',
+        // 'https://jennyjee99.github.io/webvr/',
+      ]
+
+      let running = false
+      let c = 0
+
+      function swap () {
+        f.src = urls[c]
+        c = (c >= urls.length) ? 0 : c + 1
+        console.log('currently viewing', urls[c]);
+      }
+
+      b.addEventListener('click', () => {
+        if (!running) {
+          f.style.display = 'block'
+          swap()
+          setInterval(swap, 10*1000)
+        }
+      })
+
+
+    </script>
+
+  </body>
+</html>
