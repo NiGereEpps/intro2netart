@@ -13,7 +13,8 @@ const list = [
   'sara',
   'abdo',
   'adie',
-  'hunter'
+  'hunter',
+  'jenny'
 ]
 
 const select = document.createElement('select')
