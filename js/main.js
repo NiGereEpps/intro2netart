@@ -1,5 +1,4 @@
 const list = [
-  'NO-CSS',
   'briz',
   'cherry',
   'ni\'gere',
@@ -14,7 +13,8 @@ const list = [
   'abdo',
   'adie',
   'hunter',
-  'jenny'
+  'jenny',
+  'NO-CSS'
 ]
 
 const select = document.createElement('select')
