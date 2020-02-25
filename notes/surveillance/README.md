@@ -42,7 +42,9 @@ On the subject of the prevailing tech business model today, as the saying goes, 
 [Tristan Harris](https://en.wikipedia.org/wiki/Tristan_Harris) (check out his NFP [the Center for Humane Technology](https://humanetech.com/))
 
 see also: Aza Raskin on designing the Infinite Scroll
+
 see also: see also [Lewis, Paul. 'Fiction is outperforming reality': how YouTube's algorithm distorts truth, the Guardian. Feb 2, 2018](https://www.theguardian.com/technology/2018/feb/02/how-youtubes-algorithm-distorts-truth)
+
 see also: [https://www.darkpatterns.org/](https://www.darkpatterns.org/)
 
 ### types of data collected
