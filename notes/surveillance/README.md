@@ -62,9 +62,7 @@ source: [Madrigal, Alexis C. "71% of Facebook Users Engage in 'Self-Censorship'"
 source: [Opsahl, Kurt and Rainey Reitman. "The Disconcerting Details: How Facebook Teams Up With Data Brokers to Show You Targeted Ads" the Electronic Frontier Foundation. April 22, 2013](https://www.eff.org/deeplinks/2013/04/disconcerting-details-how-facebook-teams-data-brokers-show-you-targeted-ads#info-flow )
 
 - **incidental data**: the stuff other people share about you
-<br>
 incidental and third-party data are used to produce "Shadow Profiles"
-<br>
 source: [Hill, Kashmir. "How Facebook Figures Out Everyone You've Ever Met" Gizmodo. Kashmir Nov 7, 2017](https://gizmodo.com/how-facebook-figures-out-everyone-youve-ever-met-1819822691?IR=T)
 
 - **derived data**: data inferred by corrolating all of the above, ex: social class
