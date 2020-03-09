@@ -9,6 +9,5 @@
 - [nick](https://nbso13.github.io/dissonance-irony/)
 - [ni'gere](https://nigereepps.github.io/netart/)
 - [olivia](https://burgherolivia.github.io/netfinal/)
-- [sara](https://sarasalvino.github.io/final/)
 - [thor](https://thoranderskow.github.io/my_comic_proj)
 - [yitz](https://ygoldstein15.github.io/media-kids/)
