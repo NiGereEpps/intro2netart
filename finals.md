@@ -6,7 +6,7 @@
 - [cherry](https://yue-cherry-ying.github.io/CyberGarden/)
 - [kayla](https://kthekeener.github.io/)
 - [neha](https://wookiee2187.github.io/netart-final/)
-- [nick](https://nbso13.github.io/final_proj/)
+- [nick](https://nbso13.github.io/dissonance-irony/)
 - [ni'gere](https://nigereepps.github.io/netart/)
 - [olivia](https://burgherolivia.github.io/netfinal/)
 - [sara](https://sarasalvino.github.io/final/)
